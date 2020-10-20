@@ -1,0 +1,4 @@
+all: koslista0.o
+	g++ -g koslista0.0 -o a.out 
+koslista0.o: koslista0.cpp
+	g++ -g -c -Wall koslista0.cpp 
